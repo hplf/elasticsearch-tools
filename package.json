@@ -1,0 +1,54 @@
+{
+  "name": "elasticsearch-tools",
+  "version": "3.0.1",
+  "description": "Elasticsearch command line tools for importing, exporting, etc",
+  "homepage": "http://github.com/skratchdot/elasticsearch-tools",
+  "preferGlobal": true,
+  "bin": {
+    "es-export-aliases": "./lib/es-export-aliases.js",
+    "es-export-bulk": "./lib/es-export-bulk.js",
+    "es-export-mappings": "./lib/es-export-mappings.js",
+    "es-export-settings": "./lib/es-export-settings.js",
+    "es-import-aliases": "./lib/es-import-aliases.js",
+    "es-import-bulk": "./lib/es-import-bulk.js",
+    "es-import-mappings": "./lib/es-import-mappings.js",
+    "es-import-settings": "./lib/es-import-settings.js"
+  },
+  "author": "skratchdot",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/skratchdot/elasticsearch-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/skratchdot/elasticsearch-tools/issues"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "commander": "^2.9.0",
+    "elasticsearch": "^10.1.2",
+    "filesize": "^3.2.0",
+    "line-by-line": "^0.1.4",
+    "progress": "^1.1.8"
+  },
+  "keywords": [
+    "elasticsearch",
+    "es",
+    "cli",
+    "import",
+    "export",
+    "dump",
+    "restore",
+    "mappings",
+    "data",
+    "schema"
+  ],
+  "devDependencies": {
+    "async": "^1.5.2",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0"
+  }
+}
